@@ -1,0 +1,112 @@
+body {
+  background: #23252C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 317px;
+  background: #1A1B21;
+  /* color: white; */
+}
+
+.image {
+  border-radius: 10px 10px 0px 0px;
+  background: url("https://avatars.githubusercontent.com/u/138031294?v=4");
+  background-size: cover;
+  width: 317px;
+  height: 317px;
+  flex-shrink: 0;
+}
+
+.info-text {
+  text-align: center;
+}
+
+.info-text > h2, a{
+  color: white;
+  text-decoration: none;
+}
+
+.info-text > h4 {
+  color: #F3BF99;
+  text-align: center;
+  font-family: Inter;
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.displaybtn {
+  display: flex;
+  padding: 25px;
+}
+
+.btngithub {
+  color: black;
+  display: flex;
+  width: 115px;
+  padding: 9px 13px 9px 11px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  border: 1px solid var(--gray-300, #D1D5DB);
+  background: var(--white, #FFF);
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  margin-right: 10px;
+}
+
+.btnlinkedin {
+  display: flex;
+  width: 115px;
+  padding: 9px 13px 9px 11px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  background: #5093E2;
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.about {
+  width: 247px;
+  height: 61px;
+  color: #DCDCDC;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 150%; /* 15.36px */
+  padding: 5px 30px;
+}
+
+.interests {
+  width: 247px;
+  height: 61px;
+  color: #DCDCDC;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 150%; /* 15.36px */
+  padding: 20px 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  border-radius: 0px 0px 10px 10px;
+  background: #161619;
+  gap: 8px;
+}
